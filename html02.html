@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html 연습02 - 목록</title>
+</head>
+<body>
+    <div class="wrap">
+        <h2>비순서 목록</h2>
+        <ul>
+            <li>김도연
+                <ul>
+                    <li>행복
+                        <ul>
+                            <li>행복</li>
+                            <li>불행</li>
+                        </ul>
+                    </li>
+                    <li>성공</li>
+                    <li>노력</li>
+                </ul>
+            </li>
+            <li>김지은</li>
+            <li>정병진</li>
+            <li>박정우</li>
+        </ul>
+    </div>
+    <div class="wrap">
+        <h2>순서형 목록</h2>
+        <ol>
+            <li>순대</li>
+            <li>피자</li>
+            <li>치킨</li>
+            <li>떡볶이</li>
+        </ol>
+    </div>
+    <div class="wrap">
+        <h2>나열형 목록</h2>
+        <dl>
+            <dt>사계절</dt>
+            <dd>봄</dd>
+            <dd>여름</dd>
+            <dd>가을</dd>
+            <dd>겨울</dd>
+        </dl>
+    </div>
+    <div class="wrap">
+        <h2>선택형 목록</h2>
+        <select name="sel" id="sel">
+            <option value="">선택안함</option>
+            <option value="http://www.google.com">구글</option>
+            <option value="http://www.naver.com">네이버</option>
+            <option value="http://www.daum.net">다음</option>
+        </select>
+    </div>
+    <div class="wrap">
+        <h2>펼침형 목록</h2>
+        <details>
+            <summary>자세히 보기</summary>
+            <div>
+                오늘은 본시 수업 첫 번째 날~!<br>
+                진부하고, 따분한 내용 부터<br>
+                쉽게 알 수 있는 내용 까지
+            </div>
+        </details>
+    </div>
+    <div class="wrap">
+        <h2>데이터 입력형 목록</h2>
+        <form>
+            과목 : <input type="text" name="dept" list="deptlist"><br><br>
+            <datalist id="deptlist">
+                <option value="응용SW기초기술활용"></option>
+                <option value="개발자환경구축"></option>
+                <option value="프로그래밍언어활용"></option>
+                <option value="SQL활용"></option>
+            </datalist>
+        </form>
+    </div>
+</body>
+</html>
