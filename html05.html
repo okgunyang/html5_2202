@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html 연습05 - 테이블</title>
+</head>
+<body>
+    <h2>테이블(표)</h2>
+    <div class="table_wrap">
+        <table border="1" cellspacing="0" cellpadding="10">
+            <caption>자바웹반 중간성적표</caption>
+            <thead>
+                <tr>
+                    <th>번호</th><th>성명</th><th>응용SW기초활용</th><th>개발자환경구축</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td>한태헌</td><td>90</td><td>80</td></tr>
+                <tr><td>2</td><td>김태엽</td><td>100</td><td>70</td></tr>
+                <tr><td>3</td><td>정진석</td><td>80</td><td>90</td></tr>
+                <tr><td>4</td><td>안효준</td><td>100</td><td>100</td></tr>
+                <tr><td>5</td><td>조민재</td><td>80</td><td>80</td></tr>
+                <tr><td>6</td><td>김지훈</td><td colspan="2">90</td></tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="2">합계</th><td rowspan="2">420</td>
+                    <td rowspan="2">390</td>
+                </tr>
+                <tr><th colspan="2">집계</th></tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
