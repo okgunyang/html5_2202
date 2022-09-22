@@ -632,35 +632,65 @@
 
         + 폼 컨트롤들의 지정가능한 속성
         accept : file 컨트롤에 지정가능하며, 파일을 업로드 컨트롤에서 기대하는 파일 유형을 암시
+
         alt	: image 컨트롤에 지정가능하며, 이미지 유형에 대한 대체 속성. accessibiltiy 측면에서 필요.
+
         autocomplete : 모든 컨트롤에 지정가능하며,양식 자동생성 기능 (form autofill) 암시
+
         autofocus : 모든 컨트롤에 지정가능하며,	페이지가 로딩될때 양식 제어에 오토포커스되므로 하나의 컨트롤에만 지정해야 함
+
         capture	: file 컨트롤에 지정가능하며, 파일 업로드 제어에서 input 방식에서 미디어 capture
+
         checked	: radio, checkbox 컨트롤에만 지정가능하며, 커맨드나 컨트롤이 체크 되었는지의 여부를 지정, 라디오 버튼의 경우 한 그룹 내에서 하나의 컨트롤에만 적용해야함
+
         dirname	: text, search	컨트롤에 지정가능, 양식 전송시 요소의 방향성을 전송할 때 양식 필드의 Name
-        disabled : 모든 컨트롤에 지정가능, 양식 컨트롤이 비활성화되었는지의 여부
+
+        disabled : 모든 컨트롤에 지정가능, 양식 컨트롤이 비활성화되었는지의 여부를 지정하며, 지정된 컨트롤은 값을 전송할 수 없음
+
         formaction : image, submit 컨트롤에 지정가능, 양식 전송시 URL 사용하기
+
         formenctype	: image, submit	컨트롤에 지정가능, 양식의 데이터 인코딩 유형이 양식 전송시 사용될 것
+
         formmethod : image, submit 컨트롤에 지정가능, 양식 전송시 HTTP 방식을 사용
+
         formnovalidate : image, submit 컨트롤에 지정가능, 양식 전송시 양식 컨트롤 확인을 무시하기
+
         formtarget : image, submit 컨트롤에 지정가능, 양식 전송시 브라우징 맥락
+
         height : image 컨트롤에만 지정가능, 이미지 높이에서 height 속성과 같음
+
         list : datalist 자동입력 옵션의 id 속성값
+
         max	: 숫자 타입 입력이 가능한 컨트롤에 지정가능, 최대값
+
         maxlength :	password, search, tel, text, url 컨트롤에 지정가능하며,	value의 최대 길이 (문자수)
+
         min	: 숫자 타입 입력이 가능한 컨트롤에 지정가능, 최소값
+
         minlength :	password, search, tel, text, url 컨트롤에 지정가능, value의 최소 길이 (문자수)
+
         multiple : email, file 컨트롤에 지정가능, 불리언값. 여러 값을 허용할지의 여부
+
         name : 모든 컨트롤에 지정가능, input 양식 컨트롤의 이름. 이름/값 짝(name/value pair)의 일부로서 양식과 함께 전송된다
+
         pattern : password, text, tel 컨트롤에 지정가능, value 가 유효하기 위해 일치해야 하는 패턴
+
         placeholder : password, search, tel, text, url 컨트롤에 지정가능, 양식 컨트롤이 비어있는 때 양식 컨트롤에 나타나는 내용
+
         readonly : 문자나 숫자로 입력하는 것은 모두 가능, 불리언값. 이 값은 수정이 불가능함
+
         required : 입력 또는 선택하는 컨트롤은 모두 가능하며, 양식이 전송되기 위해서 반드시 입력하거나 확인이 필요한 값
+
         size : email, password, tel, text 컨트롤에 지정가능, 컨트롤의 크기
-        src	: image 컨트롤에 지정가능, 이미지 출처의 주소에서 src 와 같은 속성
+
+        src	: image 컨트롤에 지정가능, 이미지 출처의 주소에서 src 와 같은 속성값
+
         step : 숫자 입력이 가능한 컨트롤에 지정가능, 유효한 증분적인 (Incremental)값
+
         type : input 컨트롤에 지정가능, 양식 컨트롤의 유형
+
         value :	모든 컨트롤에 지정가능, 이름/값 짝(name/value pair)의 일부로서 양식과 함께 전송된다
+        
         width : image 컨트롤에 지정가능, 이미지의 width 속성과 같다    
 
 
